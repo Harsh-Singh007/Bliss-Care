@@ -309,12 +309,15 @@ transition: .5s ease;
     color: var(--second-bg-color);
 }
 .contact {
-  
+  background-color: var(--second-bg-color);
     padding: 50px;
     text-align: center;
   }
 .contact h2{
     margin-bottom: 3rem;
+}
+.contact h1 a{
+    color:skyblue;
 }
 .contact form{
     max-width: 70rem;
@@ -356,7 +359,7 @@ transition: .5s ease;
 
     font-size: 2em;
     line-height: 1;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   
 .footer{
@@ -364,7 +367,7 @@ transition: .5s ease;
     justify-content: space-between ;
     align-items: center;
     flex-wrap: wrap;
-    background-color: var(--second-bg-color);
+    
     padding: 2rem 9%;
    
 }
